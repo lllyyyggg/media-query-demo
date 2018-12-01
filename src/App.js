@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import Roll from './Roll'
 class App extends Component {
   render() {
     return (
@@ -13,8 +12,8 @@ class App extends Component {
           <div className='right'>
             Right
           </div>
+          <Roll/>
        </div>
-
     );
   }
 }
